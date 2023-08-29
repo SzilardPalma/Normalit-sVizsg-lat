@@ -6,9 +6,9 @@ A Github repository az alábbi fájlrendszert tartalmazza:
   - Replikáló kód
 ## 2. Output xlsx file-ok:
 - Szimulált kritikus értékek ('criticalValues.xlsx'). A kritikus értékek 1-10 sorai az n = 10, 20, 30, ..., 100-as elemszámú mintára vonatkoznak. Minden elemszámra m = 100 000 darab $\mathcal{N}(0,1)$ eloszlású mintát szimuláltunk, ami összesen 500 000 minta. Az eredmények az oszlopok szerint az alábbi tesztekhez tartoznak:
-    - Filliben teszt
     - Shapiro-Wilk teszt
     - Shapiro-Francia teszt
+    - Filliben teszt
     - Kolmogorov-Smirnov
     - Anderson-Darling teszt
     - Kuiper teszt
@@ -18,9 +18,9 @@ A Github repository az alábbi fájlrendszert tartalmazza:
     - Khí-négyzet teszt
     - Vasicek teszt
   - A tesztekhez tartozó size ('testSize.xlsx'). n = 10, 20, 30, ..., 100-as elemszámú mintára vonatkozóan. Minden elemszámra m = 100 000 darab $\mathcal{N}(0,1)$ eloszlású mintát szimuláltunk. A tesztek oszlop szerinti sorrendje megegyezik a kritikus értékek táblázatával:
-    - Filliben teszt
     - Shapiro-Wilk teszt
     - Shapiro-Francia teszt
+    - Filliben teszt
     - Kolmogorov-Smirnov
     - Anderson-Darling teszt
     - Kuiper teszt
